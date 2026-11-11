@@ -1,0 +1,113 @@
+{
+ "approved_by": null,
+ "approved_on": null,
+ "status": "DRAFT. Every value below must be checked by the clinical lead against the cited source before use.",
+ "pregnancy": {
+  "trimesterStartWeeks": {
+   "2": 14,
+   "3": 28
+  },
+  "termDays": 280
+ },
+ "anaemia": {
+  "source": "WHO 2024. Guideline on haemoglobin cutoffs to define anaemia in individuals and populations",
+  "unit": "g/dL",
+  "groups": {
+   "pregnant_t1": {
+    "normalFrom": 11.0,
+    "mildFrom": 10.0,
+    "moderateFrom": 7.0
+   },
+   "pregnant_t2": {
+    "normalFrom": 10.5,
+    "mildFrom": 9.5,
+    "moderateFrom": 7.0
+   },
+   "pregnant_t3": {
+    "normalFrom": 11.0,
+    "mildFrom": 10.0,
+    "moderateFrom": 7.0
+   },
+   "nonpregnant_woman": {
+    "normalFrom": 12.0,
+    "mildFrom": 11.0,
+    "moderateFrom": 8.0
+   }
+  },
+  "plausibleRange": {
+   "min": 3.0,
+   "max": 20.0
+  },
+  "actions": {
+   "normal": {
+    "urgency": "none"
+   },
+   "mild": {
+    "urgency": "routine",
+    "referralReason": "anaemia_mild"
+   },
+   "moderate": {
+    "urgency": "soon",
+    "referralReason": "anaemia_moderate",
+    "seeClinicWithinDays": null
+   },
+   "severe": {
+    "urgency": "today",
+    "referralReason": "anaemia_severe"
+   }
+  }
+ },
+ "growth": {
+  "source": "WHO Child Growth Standards (2006)",
+  "flags": [
+   {
+    "id": "growth_very_low",
+    "indicator": "weightForLength",
+    "below": -3,
+    "urgency": "today"
+   },
+   {
+    "id": "growth_low",
+    "indicator": "weightForLength",
+    "below": -2,
+    "urgency": "soon"
+   },
+   {
+    "id": "growth_low",
+    "indicator": "weightForAge",
+    "below": -2,
+    "urgency": "soon"
+   },
+   {
+    "id": "growth_short",
+    "indicator": "lengthForAge",
+    "below": -2,
+    "urgency": "routine"
+   },
+   {
+    "id": "growth_high",
+    "indicator": "weightForLength",
+    "above": 2,
+    "urgency": "routine"
+   }
+  ],
+  "faltering": {
+   "minDaysBetween": 28,
+   "urgency": "soon"
+  },
+  "implausibleZ": 6
+ },
+ "iycf": {
+  "source": "WHO and UNICEF 2021. Indicators for assessing infant and young child feeding practices",
+  "minMealFrequency": {
+   "breastfed_6_8": 2,
+   "breastfed_9_23": 3,
+   "nonBreastfed_6_23_feeds": 4,
+   "nonBreastfed_min_solid_feeds": 1
+  },
+  "ebfAllowedNonBreastmilk": [
+   "ors",
+   "drops_syrups_medicines"
+  ]
+ }
+}

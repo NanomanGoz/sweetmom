@@ -1,0 +1,160 @@
+{
+ "status": "DRAFT. Clinical lead to approve wording; native Pidgin speaker to check Pidgin terms.",
+ "pregnancySigns": [
+  {
+   "id": "bleeding",
+   "en": "Bleeding from the vagina",
+   "pcm": "Blood dey comot for my private part"
+  },
+  {
+   "id": "severe_headache_vision",
+   "en": "Very bad headache or blurred vision",
+   "pcm": "Head dey pain me well well or my eye dey blur"
+  },
+  {
+   "id": "convulsions",
+   "en": "Fits or convulsions",
+   "pcm": "Body dey jerk (convulsion)"
+  },
+  {
+   "id": "severe_abdominal_pain",
+   "en": "Very bad pain in the belly",
+   "pcm": "Belle dey pain me well well"
+  },
+  {
+   "id": "fever",
+   "en": "Fever or hot body",
+   "pcm": "Body dey hot"
+  },
+  {
+   "id": "reduced_fetal_movement",
+   "en": "Baby moving less or not moving",
+   "pcm": "Pikin for belle no dey move like before"
+  },
+  {
+   "id": "swelling_face_hands",
+   "en": "Swelling of the face or hands",
+   "pcm": "My face or hand don swell"
+  },
+  {
+   "id": "fluid_leaking",
+   "en": "Water leaking from the vagina",
+   "pcm": "Water dey comot for my private part"
+  },
+  {
+   "id": "breathing",
+   "en": "Difficulty breathing",
+   "pcm": "I no fit breathe well"
+  }
+ ],
+ "babySigns": [
+  {
+   "id": "not_feeding",
+   "en": "Not able to feed or breastfeed",
+   "pcm": "Pikin no fit suck or chop"
+  },
+  {
+   "id": "convulsions",
+   "en": "Fits or convulsions",
+   "pcm": "Pikin body dey jerk"
+  },
+  {
+   "id": "lethargic",
+   "en": "Very sleepy or hard to wake",
+   "pcm": "Pikin dey sleep too much, e hard to wake"
+  },
+  {
+   "id": "breathing",
+   "en": "Fast or difficult breathing",
+   "pcm": "Pikin dey breathe fast or e hard am to breathe"
+  },
+  {
+   "id": "fever_or_cold",
+   "en": "Fever or very cold body",
+   "pcm": "Pikin body too hot or too cold"
+  },
+  {
+   "id": "jaundice",
+   "en": "Yellow skin or eyes in the first days, or yellow palms and soles",
+   "pcm": "Pikin eye or body don yellow"
+  },
+  {
+   "id": "vomiting",
+   "en": "Vomits everything",
+   "pcm": "Pikin dey vomit everything"
+  },
+  {
+   "id": "bloody_diarrhoea",
+   "en": "Diarrhoea with blood",
+   "pcm": "Pikin dey purge blood"
+  }
+ ],
+ "terms": {
+  "en": [
+   "bleeding",
+   "bleed",
+   "convulsion",
+   "convulsing",
+   "fits",
+   "seizure",
+   "blurred vision",
+   "blurry",
+   "severe headache",
+   "bad headache",
+   "not moving",
+   "no movement",
+   "stopped moving",
+   "water broke",
+   "leaking water",
+   "fluid leaking",
+   "can't breathe",
+   "cannot breathe",
+   "difficulty breathing",
+   "fast breathing",
+   "fever",
+   "high temperature",
+   "not feeding",
+   "won't feed",
+   "refusing to feed",
+   "not sucking",
+   "hard to wake",
+   "very sleepy",
+   "yellow eyes",
+   "yellow skin",
+   "jaundice",
+   "vomiting everything",
+   "blood in stool",
+   "swollen face",
+   "swelling face",
+   "fainted",
+   "unconscious",
+   "severe pain",
+   "sharp pain"
+  ],
+  "pcm": [
+   "dey bleed",
+   "blood dey comot",
+   "blood dey commot",
+   "body dey jerk",
+   "dey jerk",
+   "eye dey blur",
+   "head dey pain me well",
+   "belle dey pain me well",
+   "pikin no dey move",
+   "pikin no move",
+   "water dey comot",
+   "no fit breathe",
+   "body dey hot",
+   "pikin no dey suck",
+   "pikin no fit suck",
+   "no gree suck",
+   "eye don yellow",
+   "body don yellow",
+   "dey vomit everything",
+   "dey purge blood",
+   "face don swell",
+   "hand don swell",
+   "faint"
+  ]
+ }
+}

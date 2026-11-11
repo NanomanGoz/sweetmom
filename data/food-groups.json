@@ -1,0 +1,107 @@
+{
+ "women": {
+  "indicator": "MDD-W",
+  "source": "FAO 2021. Minimum dietary diversity for women: an updated guide for measurement",
+  "minGroupsForMDD": 5,
+  "minGramsPerGroupPerDay": 15,
+  "groups": [
+   {
+    "id": "grains_roots_tubers",
+    "en": "Grains, white roots and tubers, and plantains",
+    "local": "Rice, yam, garri, bread, plantain"
+   },
+   {
+    "id": "pulses",
+    "en": "Pulses (beans, peas, lentils)",
+    "local": "Beans, soya"
+   },
+   {
+    "id": "nuts_seeds",
+    "en": "Nuts and seeds",
+    "local": "Groundnut, egusi, cashew"
+   },
+   {
+    "id": "dairy",
+    "en": "Dairy",
+    "local": "Milk, yoghurt"
+   },
+   {
+    "id": "meat_poultry_fish",
+    "en": "Meat, poultry and fish",
+    "local": "Fish, meat, chicken, crayfish, snail"
+   },
+   {
+    "id": "eggs",
+    "en": "Eggs",
+    "local": "Eggs"
+   },
+   {
+    "id": "dark_green_leafy_veg",
+    "en": "Dark green leafy vegetables",
+    "local": "Ugu, waterleaf, bitterleaf, ewedu, afang"
+   },
+   {
+    "id": "other_vitamin_a_fruits_veg",
+    "en": "Other vitamin A-rich fruits and vegetables",
+    "local": "Pawpaw, mango, carrot, orange sweet potato, palm oil"
+   },
+   {
+    "id": "other_vegetables",
+    "en": "Other vegetables",
+    "local": "Okro, tomato, garden egg, cabbage"
+   },
+   {
+    "id": "other_fruits",
+    "en": "Other fruits",
+    "local": "Orange, banana, pineapple, watermelon"
+   }
+  ]
+ },
+ "child": {
+  "indicator": "MDD (6-23 months)",
+  "source": "WHO and UNICEF 2021. Indicators for assessing infant and young child feeding practices",
+  "minGroupsForMDD": 5,
+  "groups": [
+   {
+    "id": "breast_milk",
+    "en": "Breast milk",
+    "local": "Breast milk"
+   },
+   {
+    "id": "grains_roots_tubers",
+    "en": "Grains, roots, tubers and plantains",
+    "local": "Pap, yam, rice, plantain"
+   },
+   {
+    "id": "pulses_nuts_seeds",
+    "en": "Pulses, nuts and seeds",
+    "local": "Beans, groundnut paste"
+   },
+   {
+    "id": "dairy",
+    "en": "Dairy products",
+    "local": "Milk, yoghurt"
+   },
+   {
+    "id": "flesh_foods",
+    "en": "Flesh foods (meat, fish, poultry, organ meats)",
+    "local": "Fish, liver, crayfish, chicken"
+   },
+   {
+    "id": "eggs",
+    "en": "Eggs",
+    "local": "Eggs"
+   },
+   {
+    "id": "vitamin_a_fruits_veg",
+    "en": "Vitamin A-rich fruits and vegetables",
+    "local": "Pawpaw, mango, carrot, ugu, palm oil"
+   },
+   {
+    "id": "other_fruits_veg",
+    "en": "Other fruits and vegetables",
+    "local": "Banana, orange, okro, tomato"
+   }
+  ]
+ }
+}

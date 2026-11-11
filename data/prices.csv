@@ -1,0 +1,3 @@
+foodId,unit,unitGrams,priceNaira,market,collectedOn
+# Fill with real Port Harcourt market prices. Example row format:
+# gari_dry,paint rubber,2500,,Mile 1 market,2026-11

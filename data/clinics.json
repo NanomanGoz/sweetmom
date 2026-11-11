@@ -1,0 +1,47 @@
+{
+ "note": "Placeholders. Replace with confirmed partner clinics before the pilot.",
+ "clinics": [
+  {
+   "id": "clinic_a",
+   "name": "Partner clinic A (placeholder)",
+   "address": "Port Harcourt",
+   "phone": "",
+   "hours": "",
+   "services": [
+    "antenatal",
+    "immunisation",
+    "laboratory"
+   ],
+   "placeholder": true
+  },
+  {
+   "id": "clinic_b",
+   "name": "Partner clinic B (placeholder)",
+   "address": "Port Harcourt",
+   "phone": "",
+   "hours": "",
+   "services": [
+    "antenatal",
+    "immunisation"
+   ],
+   "placeholder": true
+  },
+  {
+   "id": "clinic_c",
+   "name": "Partner clinic C (placeholder)",
+   "address": "Port Harcourt",
+   "phone": "",
+   "hours": "",
+   "services": [
+    "antenatal",
+    "immunisation"
+   ],
+   "placeholder": true
+  }
+ ],
+ "emergency": {
+  "label": "Nearest hospital emergency unit",
+  "phone": "",
+  "note": "Clinical lead to confirm the emergency contact to display"
+ }
+}

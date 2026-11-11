@@ -1,0 +1,2396 @@
+{
+ "source": "FAO/INFOODS Food Composition Table for Western Africa (2019). Values per 100 g edible portion.",
+ "version": "0.1",
+ "reviewStatus": "pending clinical lead review",
+ "foods": [
+  {
+   "id": "rice_white_boiled",
+   "names": {
+    "en": "White rice, boiled",
+    "local": "Rice"
+   },
+   "wafctCode": "01_038",
+   "wafctName": "Rice, white, boiled* (without salt), drained",
+   "kind": "grain",
+   "foodGroupWomen": "grains_roots_tubers",
+   "foodGroupChild": "grains_roots_tubers",
+   "per100g": {
+    "energyKcal": 115.0,
+    "proteinG": 2.3,
+    "fatG": 0.2,
+    "carbsG": 25.5,
+    "fibreG": 1.2,
+    "calciumMg": 5.0,
+    "ironMg": 0.6,
+    "zincMg": 0.46,
+    "vitAUgRAE": 0.0,
+    "folateUgDFE": 4.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 0.0,
+    "phytateMg": 86.0
+   },
+   "lowQuality": [
+    "fatG",
+    "phytateMg"
+   ],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "ogi_pap",
+   "names": {
+    "en": "Pap (ogi), fermented maize, cooked",
+    "local": "Pap / akamu / ogi"
+   },
+   "wafctCode": "01_100",
+   "wafctName": "Maize porridge, fermented (ogi), from decorticated white maize only, cooked",
+   "kind": "grain",
+   "foodGroupWomen": "grains_roots_tubers",
+   "foodGroupChild": "grains_roots_tubers",
+   "per100g": {
+    "energyKcal": 51.0,
+    "proteinG": 1.1,
+    "fatG": 1.0,
+    "carbsG": 8.8,
+    "fibreG": 1.4,
+    "calciumMg": 9.0,
+    "ironMg": 4.2,
+    "zincMg": 0.66,
+    "vitAUgRAE": 0.0,
+    "folateUgDFE": 6.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 0.0,
+    "phytateMg": 42.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false,
+   "infantSafeFromMonths": 6,
+   "reviewNote": "WAFCT 2019 gives 4.2 mg iron per 100 g for cooked ogi, which is high for a maize porridge (possibly iron from processing equipment). Clinical lead to decide whether to keep or set iron to null."
+  },
+  {
+   "id": "oats_porridge",
+   "names": {
+    "en": "Oats porridge",
+    "local": "Oats"
+   },
+   "wafctCode": "01_133",
+   "wafctName": "Oats, porridge* (without salt)",
+   "kind": "grain",
+   "foodGroupWomen": "grains_roots_tubers",
+   "foodGroupChild": "grains_roots_tubers",
+   "per100g": {
+    "energyKcal": 65.0,
+    "proteinG": 2.1,
+    "fatG": 1.4,
+    "carbsG": 10.3,
+    "fibreG": 1.8,
+    "calciumMg": 9.0,
+    "ironMg": 0.8,
+    "zincMg": 0.52,
+    "vitAUgRAE": 0.0,
+    "folateUgDFE": 4.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 0.0,
+    "phytateMg": null
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false,
+   "infantSafeFromMonths": 6
+  },
+  {
+   "id": "bread_white",
+   "names": {
+    "en": "White bread",
+    "local": "Bread"
+   },
+   "wafctCode": "01_046",
+   "wafctName": "Bread, wheat, white, unfortified",
+   "kind": "grain",
+   "foodGroupWomen": "grains_roots_tubers",
+   "foodGroupChild": "grains_roots_tubers",
+   "per100g": {
+    "energyKcal": 249.0,
+    "proteinG": 7.4,
+    "fatG": 1.3,
+    "carbsG": 50.5,
+    "fibreG": 2.9,
+    "calciumMg": 33.0,
+    "ironMg": 2.5,
+    "zincMg": 0.99,
+    "vitAUgRAE": 0.0,
+    "folateUgDFE": 21.0,
+    "vitB12Ug": 0.03,
+    "vitCMg": 0.0,
+    "phytateMg": 93.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "pasta_boiled",
+   "names": {
+    "en": "Spaghetti or macaroni, boiled",
+    "local": "Spaghetti"
+   },
+   "wafctCode": "01_053",
+   "wafctName": "Macaroni, boiled* (without salt), drained",
+   "kind": "grain",
+   "foodGroupWomen": "grains_roots_tubers",
+   "foodGroupChild": "grains_roots_tubers",
+   "per100g": {
+    "energyKcal": 124.0,
+    "proteinG": 4.3,
+    "fatG": 0.5,
+    "carbsG": 24.9,
+    "fibreG": 1.1,
+    "calciumMg": 7.0,
+    "ironMg": 0.3,
+    "zincMg": 0.37,
+    "vitAUgRAE": 0.0,
+    "folateUgDFE": 4.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 0.0,
+    "phytateMg": null
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "noodles_boiled",
+   "names": {
+    "en": "Instant noodles, boiled",
+    "local": "Indomie"
+   },
+   "wafctCode": "01_103",
+   "wafctName": "previously fried and dried, without flavouring, boiled and",
+   "kind": "grain",
+   "foodGroupWomen": "grains_roots_tubers",
+   "foodGroupChild": "grains_roots_tubers",
+   "per100g": {
+    "energyKcal": 200.0,
+    "proteinG": 5.6,
+    "fatG": 8.3,
+    "carbsG": 25.3,
+    "fibreG": 1.3,
+    "calciumMg": 12.0,
+    "ironMg": 0.3,
+    "zincMg": 0.22,
+    "vitAUgRAE": 0.0,
+    "folateUgDFE": 5.0,
+    "vitB12Ug": 0.44,
+    "vitCMg": 0.0,
+    "phytateMg": null
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "yam_boiled",
+   "names": {
+    "en": "Yam, boiled",
+    "local": "Yam"
+   },
+   "wafctCode": "02_035",
+   "wafctName": "Yam, tuber, combined cultivars (Nigeria), boiled* (without salt), drained",
+   "kind": "grain",
+   "foodGroupWomen": "grains_roots_tubers",
+   "foodGroupChild": "grains_roots_tubers",
+   "per100g": {
+    "energyKcal": 136.0,
+    "proteinG": 1.9,
+    "fatG": 0.2,
+    "carbsG": 28.7,
+    "fibreG": 6.0,
+    "calciumMg": 9.0,
+    "ironMg": 0.3,
+    "zincMg": 0.39,
+    "vitAUgRAE": null,
+    "folateUgDFE": 18.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 9.0,
+    "phytateMg": 18.0
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": false,
+   "infantSafeFromMonths": 6
+  },
+  {
+   "id": "yam_fried",
+   "names": {
+    "en": "Yam, fried",
+    "local": "Fried yam"
+   },
+   "wafctCode": "02_082",
+   "wafctName": "Yam, tuber, deep fried in unfortified vegetable oil*",
+   "kind": "grain",
+   "foodGroupWomen": "grains_roots_tubers",
+   "foodGroupChild": "grains_roots_tubers",
+   "per100g": {
+    "energyKcal": 262.0,
+    "proteinG": 3.6,
+    "fatG": 8.0,
+    "carbsG": 39.6,
+    "fibreG": 8.8,
+    "calciumMg": 43.0,
+    "ironMg": 2.5,
+    "zincMg": 1.03,
+    "vitAUgRAE": 1.0,
+    "folateUgDFE": 36.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 19.0,
+    "phytateMg": 28.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "gari_dry",
+   "names": {
+    "en": "Garri (dry weight, also for eba)",
+    "local": "Garri"
+   },
+   "wafctCode": "02_039",
+   "wafctName": "Cassava, grated, from fermented white cassava, toasted without oil (white gari)",
+   "kind": "grain",
+   "foodGroupWomen": "grains_roots_tubers",
+   "foodGroupChild": "grains_roots_tubers",
+   "per100g": {
+    "energyKcal": 351.0,
+    "proteinG": 1.2,
+    "fatG": 0.5,
+    "carbsG": 82.9,
+    "fibreG": 5.0,
+    "calciumMg": 42.0,
+    "ironMg": 1.6,
+    "zincMg": 0.67,
+    "vitAUgRAE": 0.0,
+    "folateUgDFE": 49.0,
+    "vitB12Ug": 1.0,
+    "vitCMg": 2.0,
+    "phytateMg": null
+   },
+   "lowQuality": [
+    "folateUgDFE"
+   ],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "fufu_wet",
+   "names": {
+    "en": "Fufu (wet, fermented cassava)",
+    "local": "Fufu / akpu"
+   },
+   "wafctCode": "02_041",
+   "wafctName": "Cassava, fermented paste from white cassava flour (wet fufu)",
+   "kind": "grain",
+   "foodGroupWomen": "grains_roots_tubers",
+   "foodGroupChild": "grains_roots_tubers",
+   "per100g": {
+    "energyKcal": 165.0,
+    "proteinG": 1.0,
+    "fatG": 0.4,
+    "carbsG": 38.7,
+    "fibreG": 1.7,
+    "calciumMg": 20.0,
+    "ironMg": 0.9,
+    "zincMg": 0.56,
+    "vitAUgRAE": 0.0,
+    "folateUgDFE": 69.0,
+    "vitB12Ug": 0.6,
+    "vitCMg": 27.0,
+    "phytateMg": null
+   },
+   "lowQuality": [
+    "fatG",
+    "folateUgDFE"
+   ],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "cocoyam_boiled",
+   "names": {
+    "en": "Cocoyam, boiled",
+    "local": "Cocoyam"
+   },
+   "wafctCode": "02_006",
+   "wafctName": "Cocoyam, tuber, white, boiled* (without salt), drained",
+   "kind": "grain",
+   "foodGroupWomen": "grains_roots_tubers",
+   "foodGroupChild": "grains_roots_tubers",
+   "per100g": {
+    "energyKcal": 143.0,
+    "proteinG": 3.4,
+    "fatG": 0.3,
+    "carbsG": 30.4,
+    "fibreG": 2.1,
+    "calciumMg": 15.0,
+    "ironMg": 0.7,
+    "zincMg": 0.32,
+    "vitAUgRAE": 0.0,
+    "folateUgDFE": 15.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 6.0,
+    "phytateMg": null
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "potato_boiled",
+   "names": {
+    "en": "Irish potato, boiled",
+    "local": "Irish potato"
+   },
+   "wafctCode": "02_010",
+   "wafctName": "Potato, boiled* (without salt), drained",
+   "kind": "grain",
+   "foodGroupWomen": "grains_roots_tubers",
+   "foodGroupChild": "grains_roots_tubers",
+   "per100g": {
+    "energyKcal": 79.0,
+    "proteinG": 1.5,
+    "fatG": 0.1,
+    "carbsG": 17.4,
+    "fibreG": 1.7,
+    "calciumMg": 5.0,
+    "ironMg": 0.9,
+    "zincMg": 0.33,
+    "vitAUgRAE": 0.0,
+    "folateUgDFE": 6.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 10.0,
+    "phytateMg": 35.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false,
+   "infantSafeFromMonths": 6
+  },
+  {
+   "id": "sweet_potato_pale_boiled",
+   "names": {
+    "en": "Sweet potato (white or pale), boiled",
+    "local": "Sweet potato"
+   },
+   "wafctCode": "02_023",
+   "wafctName": "Sweet potato, pale flesh (white/cream/pale yellow), boiled* (without salt), drained",
+   "kind": "grain",
+   "foodGroupWomen": "grains_roots_tubers",
+   "foodGroupChild": "grains_roots_tubers",
+   "per100g": {
+    "energyKcal": 96.0,
+    "proteinG": 1.5,
+    "fatG": 0.2,
+    "carbsG": 20.5,
+    "fibreG": 3.0,
+    "calciumMg": 32.0,
+    "ironMg": 1.2,
+    "zincMg": 0.49,
+    "vitAUgRAE": 5.0,
+    "folateUgDFE": 17.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 16.0,
+    "phytateMg": 38.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false,
+   "infantSafeFromMonths": 6
+  },
+  {
+   "id": "sweet_potato_orange_boiled",
+   "names": {
+    "en": "Sweet potato (orange flesh), boiled",
+    "local": "Orange sweet potato"
+   },
+   "wafctCode": "02_072",
+   "wafctName": "Sweet potato, orange flesh, boiled* (without salt), drained",
+   "kind": "veg",
+   "foodGroupWomen": "other_vitamin_a_fruits_veg",
+   "foodGroupChild": "vitamin_a_fruits_veg",
+   "per100g": {
+    "energyKcal": 91.0,
+    "proteinG": 1.0,
+    "fatG": 0.2,
+    "carbsG": 19.8,
+    "fibreG": 3.0,
+    "calciumMg": 52.0,
+    "ironMg": 0.9,
+    "zincMg": 0.56,
+    "vitAUgRAE": 751.0,
+    "folateUgDFE": 7.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 22.0,
+    "phytateMg": 32.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false,
+   "infantSafeFromMonths": 6
+  },
+  {
+   "id": "plantain_ripe_boiled",
+   "names": {
+    "en": "Ripe plantain, boiled",
+    "local": "Ripe plantain"
+   },
+   "wafctCode": "02_057",
+   "wafctName": "Plantain, ripe, ivory flesh, boiled* (without salt), drained",
+   "kind": "grain",
+   "foodGroupWomen": "grains_roots_tubers",
+   "foodGroupChild": "grains_roots_tubers",
+   "per100g": {
+    "energyKcal": 151.0,
+    "proteinG": 1.4,
+    "fatG": 0.2,
+    "carbsG": 34.6,
+    "fibreG": 2.5,
+    "calciumMg": 6.0,
+    "ironMg": 1.0,
+    "zincMg": 0.13,
+    "vitAUgRAE": 63.0,
+    "folateUgDFE": 15.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 15.0,
+    "phytateMg": null
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": false,
+   "infantSafeFromMonths": 6
+  },
+  {
+   "id": "plantain_unripe_boiled",
+   "names": {
+    "en": "Unripe plantain, boiled",
+    "local": "Unripe plantain"
+   },
+   "wafctCode": "02_064",
+   "wafctName": "Plantain, unripe, ivory flesh, boiled* (without salt), drained",
+   "kind": "grain",
+   "foodGroupWomen": "grains_roots_tubers",
+   "foodGroupChild": "grains_roots_tubers",
+   "per100g": {
+    "energyKcal": 151.0,
+    "proteinG": 1.8,
+    "fatG": 1.1,
+    "carbsG": 30.3,
+    "fibreG": 6.2,
+    "calciumMg": 8.0,
+    "ironMg": 0.5,
+    "zincMg": 0.36,
+    "vitAUgRAE": 65.0,
+    "folateUgDFE": 10.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 13.0,
+    "phytateMg": 41.0
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "plantain_fried",
+   "names": {
+    "en": "Fried plantain",
+    "local": "Dodo"
+   },
+   "wafctCode": "02_084",
+   "wafctName": "Plantain, deep fried in unfortified vegetable oil*",
+   "kind": "grain",
+   "foodGroupWomen": "grains_roots_tubers",
+   "foodGroupChild": "grains_roots_tubers",
+   "per100g": {
+    "energyKcal": 375.0,
+    "proteinG": 2.1,
+    "fatG": 16.9,
+    "carbsG": 51.7,
+    "fibreG": 3.7,
+    "calciumMg": 12.0,
+    "ironMg": 1.7,
+    "zincMg": 0.22,
+    "vitAUgRAE": 20.0,
+    "folateUgDFE": 27.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 29.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [
+    "phytateMg"
+   ],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "cowpea_boiled",
+   "names": {
+    "en": "Beans (cowpea), boiled",
+    "local": "Beans"
+   },
+   "wafctCode": "03_007",
+   "wafctName": "Cowpea, not soaked, boiled* (without salt), drained",
+   "kind": "pulse",
+   "foodGroupWomen": "pulses",
+   "foodGroupChild": "pulses_nuts_seeds",
+   "per100g": {
+    "energyKcal": 122.0,
+    "proteinG": 8.5,
+    "fatG": 0.5,
+    "carbsG": 18.3,
+    "fibreG": 4.7,
+    "calciumMg": 26.0,
+    "ironMg": 2.0,
+    "zincMg": 1.2,
+    "vitAUgRAE": 1.0,
+    "folateUgDFE": 78.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 0.0,
+    "phytateMg": 236.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false,
+   "infantSafeFromMonths": 6
+  },
+  {
+   "id": "cowpea_dry",
+   "names": {
+    "en": "Beans (cowpea), dry, for moi moi and akara",
+    "local": "Beans (dry)"
+   },
+   "wafctCode": "03_004",
+   "wafctName": "Cowpea, dry, raw",
+   "kind": "pulse",
+   "foodGroupWomen": "pulses",
+   "foodGroupChild": "pulses_nuts_seeds",
+   "per100g": {
+    "energyKcal": 325.0,
+    "proteinG": 22.6,
+    "fatG": 1.5,
+    "carbsG": 49.0,
+    "fibreG": 12.6,
+    "calciumMg": 82.0,
+    "ironMg": 6.2,
+    "zincMg": 3.55,
+    "vitAUgRAE": 1.0,
+    "folateUgDFE": 420.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 1.0,
+    "phytateMg": 779.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "soya_boiled",
+   "names": {
+    "en": "Soya beans, boiled",
+    "local": "Soya beans"
+   },
+   "wafctCode": "03_034",
+   "wafctName": "Soya bean, not soaked, boiled* (without salt), drained",
+   "kind": "pulse",
+   "foodGroupWomen": "pulses",
+   "foodGroupChild": "pulses_nuts_seeds",
+   "per100g": {
+    "energyKcal": 157.0,
+    "proteinG": 12.9,
+    "fatG": 7.0,
+    "carbsG": 5.8,
+    "fibreG": 9.6,
+    "calciumMg": 81.0,
+    "ironMg": 2.7,
+    "zincMg": 1.75,
+    "vitAUgRAE": 0.0,
+    "folateUgDFE": 77.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 0.0,
+    "phytateMg": 162.0
+   },
+   "lowQuality": [],
+   "trace": [
+    "vitCMg"
+   ],
+   "haemIron": false
+  },
+  {
+   "id": "groundnut",
+   "names": {
+    "en": "Groundnut",
+    "local": "Groundnut"
+   },
+   "wafctCode": "06_010",
+   "wafctName": "Groundnut, shelled, dried, raw",
+   "kind": "nut",
+   "foodGroupWomen": "nuts_seeds",
+   "foodGroupChild": "pulses_nuts_seeds",
+   "per100g": {
+    "energyKcal": 574.0,
+    "proteinG": 22.4,
+    "fatG": 44.2,
+    "carbsG": 17.4,
+    "fibreG": 8.3,
+    "calciumMg": 45.0,
+    "ironMg": 3.5,
+    "zincMg": 2.61,
+    "vitAUgRAE": 2.0,
+    "folateUgDFE": 110.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 1.0,
+    "phytateMg": 339.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false,
+   "chokingRisk": true,
+   "commonAllergen": true
+  },
+  {
+   "id": "groundnut_paste",
+   "names": {
+    "en": "Groundnut paste",
+    "local": "Groundnut paste"
+   },
+   "wafctCode": "06_026",
+   "wafctName": "Groundnut paste, from groundnuts only",
+   "kind": "nut",
+   "foodGroupWomen": "nuts_seeds",
+   "foodGroupChild": "pulses_nuts_seeds",
+   "per100g": {
+    "energyKcal": 605.0,
+    "proteinG": 23.9,
+    "fatG": 49.9,
+    "carbsG": 11.0,
+    "fibreG": 8.3,
+    "calciumMg": 64.0,
+    "ironMg": 3.2,
+    "zincMg": 2.61,
+    "vitAUgRAE": 0.0,
+    "folateUgDFE": 110.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 1.0,
+    "phytateMg": 339.0
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": false,
+   "infantSafeFromMonths": 6,
+   "commonAllergen": true
+  },
+  {
+   "id": "egusi",
+   "names": {
+    "en": "Egusi (melon seed)",
+    "local": "Egusi"
+   },
+   "wafctCode": "06_035",
+   "wafctName": "Melon seed (citrullus spp.), kernel only, dried, raw",
+   "kind": "nut",
+   "foodGroupWomen": "nuts_seeds",
+   "foodGroupChild": "pulses_nuts_seeds",
+   "per100g": {
+    "energyKcal": 565.0,
+    "proteinG": 19.5,
+    "fatG": 44.4,
+    "carbsG": 19.0,
+    "fibreG": 6.0,
+    "calciumMg": 37.0,
+    "ironMg": 8.7,
+    "zincMg": 4.93,
+    "vitAUgRAE": 0.0,
+    "folateUgDFE": 58.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 0.0,
+    "phytateMg": 178.0
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "sesame",
+   "names": {
+    "en": "Sesame seed",
+    "local": "Beniseed"
+   },
+   "wafctCode": "06_015",
+   "wafctName": "Sesame seed, whole, dried, raw",
+   "kind": "nut",
+   "foodGroupWomen": "nuts_seeds",
+   "foodGroupChild": "pulses_nuts_seeds",
+   "per100g": {
+    "energyKcal": 601.0,
+    "proteinG": 16.6,
+    "fatG": 54.1,
+    "carbsG": 4.9,
+    "fibreG": 14.3,
+    "calciumMg": 777.0,
+    "ironMg": 11.2,
+    "zincMg": 2.1,
+    "vitAUgRAE": 1.0,
+    "folateUgDFE": 100.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 0.0,
+    "phytateMg": 898.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "cashew",
+   "names": {
+    "en": "Cashew nut",
+    "local": "Cashew"
+   },
+   "wafctCode": "06_001",
+   "wafctName": "Cashew nut, raw",
+   "kind": "nut",
+   "foodGroupWomen": "nuts_seeds",
+   "foodGroupChild": "pulses_nuts_seeds",
+   "per100g": {
+    "energyKcal": 591.0,
+    "proteinG": 16.1,
+    "fatG": 45.4,
+    "carbsG": 27.8,
+    "fibreG": 3.5,
+    "calciumMg": 48.0,
+    "ironMg": 7.4,
+    "zincMg": 5.34,
+    "vitAUgRAE": 0.0,
+    "folateUgDFE": 68.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 0.0,
+    "phytateMg": 929.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false,
+   "chokingRisk": true,
+   "commonAllergen": true
+  },
+  {
+   "id": "milk_whole",
+   "names": {
+    "en": "Milk, whole (liquid)",
+    "local": "Milk"
+   },
+   "wafctCode": "10_001",
+   "wafctName": "Milk, cow, whole, pasteurized or UHT, 3.5% fat",
+   "kind": "dairy",
+   "foodGroupWomen": "dairy",
+   "foodGroupChild": "dairy",
+   "per100g": {
+    "energyKcal": 64.0,
+    "proteinG": 3.3,
+    "fatG": 3.4,
+    "carbsG": 5.1,
+    "fibreG": 0.0,
+    "calciumMg": 119.0,
+    "ironMg": 0.1,
+    "zincMg": 0.63,
+    "vitAUgRAE": 42.0,
+    "folateUgDFE": 8.0,
+    "vitB12Ug": 0.59,
+    "vitCMg": 0.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false,
+   "infantSafeFromMonths": 12
+  },
+  {
+   "id": "milk_powder",
+   "names": {
+    "en": "Milk powder, whole",
+    "local": "Powdered milk"
+   },
+   "wafctCode": "10_002",
+   "wafctName": "Milk, cow, powder, whole, unfortified",
+   "kind": "dairy",
+   "foodGroupWomen": "dairy",
+   "foodGroupChild": "dairy",
+   "per100g": {
+    "energyKcal": 493.0,
+    "proteinG": 25.8,
+    "fatG": 26.8,
+    "carbsG": 37.3,
+    "fibreG": 0.0,
+    "calciumMg": 925.0,
+    "ironMg": 0.8,
+    "zincMg": 3.34,
+    "vitAUgRAE": 329.0,
+    "folateUgDFE": 37.0,
+    "vitB12Ug": 1.8,
+    "vitCMg": 13.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "milk_evaporated",
+   "names": {
+    "en": "Evaporated milk (tinned)",
+    "local": "Peak / tin milk"
+   },
+   "wafctCode": "10_016",
+   "wafctName": "Milk, cow, canned, evaporated",
+   "kind": "dairy",
+   "foodGroupWomen": "dairy",
+   "foodGroupChild": "dairy",
+   "per100g": {
+    "energyKcal": 157.0,
+    "proteinG": 7.4,
+    "fatG": 8.6,
+    "carbsG": 12.6,
+    "fibreG": 0.0,
+    "calciumMg": 258.0,
+    "ironMg": 0.2,
+    "zincMg": 0.96,
+    "vitAUgRAE": 80.0,
+    "folateUgDFE": 6.0,
+    "vitB12Ug": 0.15,
+    "vitCMg": 1.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "yoghurt",
+   "names": {
+    "en": "Yoghurt, plain",
+    "local": "Yoghurt"
+   },
+   "wafctCode": "10_005",
+   "wafctName": "Yoghurt, plain, from whole cow’s milk",
+   "kind": "dairy",
+   "foodGroupWomen": "dairy",
+   "foodGroupChild": "dairy",
+   "per100g": {
+    "energyKcal": 82.0,
+    "proteinG": 2.9,
+    "fatG": 4.7,
+    "carbsG": 7.1,
+    "fibreG": 0.0,
+    "calciumMg": 123.0,
+    "ironMg": 0.1,
+    "zincMg": 0.35,
+    "vitAUgRAE": 26.0,
+    "folateUgDFE": 7.0,
+    "vitB12Ug": 0.4,
+    "vitCMg": 1.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false,
+   "infantSafeFromMonths": 6
+  },
+  {
+   "id": "breastmilk",
+   "names": {
+    "en": "Breast milk",
+    "local": "Breast milk"
+   },
+   "wafctCode": "10_004",
+   "wafctName": "Breastmilk, mature",
+   "kind": "breastmilk",
+   "foodGroupWomen": null,
+   "foodGroupChild": "breast_milk",
+   "per100g": {
+    "energyKcal": 70.0,
+    "proteinG": 1.1,
+    "fatG": 3.5,
+    "carbsG": 8.4,
+    "fibreG": 0.0,
+    "calciumMg": 26.0,
+    "ironMg": 0.2,
+    "zincMg": 0.2,
+    "vitAUgRAE": 61.0,
+    "folateUgDFE": 5.0,
+    "vitB12Ug": 0.05,
+    "vitCMg": 4.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "chicken_stewed",
+   "names": {
+    "en": "Chicken, stewed",
+    "local": "Chicken"
+   },
+   "wafctCode": "07_102",
+   "wafctName": "Chicken, dark meat without skin, stewed* (as part of a recipe)",
+   "kind": "flesh",
+   "foodGroupWomen": "meat_poultry_fish",
+   "foodGroupChild": "flesh_foods",
+   "per100g": {
+    "energyKcal": 209.0,
+    "proteinG": 27.7,
+    "fatG": 10.9,
+    "carbsG": 0.0,
+    "fibreG": 0.0,
+    "calciumMg": 15.0,
+    "ironMg": 1.9,
+    "zincMg": 2.36,
+    "vitAUgRAE": 27.0,
+    "folateUgDFE": 2.0,
+    "vitB12Ug": 0.37,
+    "vitCMg": 3.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": true
+  },
+  {
+   "id": "beef_stewed",
+   "names": {
+    "en": "Beef, stewed",
+    "local": "Meat"
+   },
+   "wafctCode": "07_085",
+   "wafctName": "Beef meat, lean, ca. 5% fat, stewed* (as part of a recipe)",
+   "kind": "flesh",
+   "foodGroupWomen": "meat_poultry_fish",
+   "foodGroupChild": "flesh_foods",
+   "per100g": {
+    "energyKcal": 185.0,
+    "proteinG": 31.7,
+    "fatG": 6.4,
+    "carbsG": 0.0,
+    "fibreG": 0.0,
+    "calciumMg": 26.0,
+    "ironMg": 3.3,
+    "zincMg": 4.99,
+    "vitAUgRAE": 7.0,
+    "folateUgDFE": 8.0,
+    "vitB12Ug": 2.4,
+    "vitCMg": 0.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": true
+  },
+  {
+   "id": "goat_stewed",
+   "names": {
+    "en": "Goat meat, stewed",
+    "local": "Goat meat"
+   },
+   "wafctCode": "07_112",
+   "wafctName": "Goat meat, moderately fat, ca. 10% fat, stewed* (as part of a recipe)",
+   "kind": "flesh",
+   "foodGroupWomen": "meat_poultry_fish",
+   "foodGroupChild": "flesh_foods",
+   "per100g": {
+    "energyKcal": 281.0,
+    "proteinG": 31.0,
+    "fatG": 17.5,
+    "carbsG": 0.0,
+    "fibreG": 0.0,
+    "calciumMg": 48.0,
+    "ironMg": 3.9,
+    "zincMg": 5.94,
+    "vitAUgRAE": 13.0,
+    "folateUgDFE": 4.0,
+    "vitB12Ug": 2.1,
+    "vitCMg": 1.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": true
+  },
+  {
+   "id": "beef_liver_stewed",
+   "names": {
+    "en": "Beef liver, stewed",
+    "local": "Liver"
+   },
+   "wafctCode": "07_089",
+   "wafctName": "Beef liver, stewed* (as part of a recipe)",
+   "kind": "flesh",
+   "foodGroupWomen": "meat_poultry_fish",
+   "foodGroupChild": "flesh_foods",
+   "per100g": {
+    "energyKcal": 171.0,
+    "proteinG": 25.7,
+    "fatG": 5.6,
+    "carbsG": 4.5,
+    "fibreG": 0.0,
+    "calciumMg": 44.0,
+    "ironMg": 13.1,
+    "zincMg": 4.75,
+    "vitAUgRAE": 23400.0,
+    "folateUgDFE": 250.0,
+    "vitB12Ug": 130.0,
+    "vitCMg": 24.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": true,
+   "infantSafeFromMonths": 6
+  },
+  {
+   "id": "chicken_liver_stewed",
+   "names": {
+    "en": "Chicken liver, stewed",
+    "local": "Chicken liver"
+   },
+   "wafctCode": "07_042",
+   "wafctName": "Chicken liver, stewed* (as part of a recipe)",
+   "kind": "flesh",
+   "foodGroupWomen": "meat_poultry_fish",
+   "foodGroupChild": "flesh_foods",
+   "per100g": {
+    "energyKcal": 152.0,
+    "proteinG": 24.4,
+    "fatG": 5.3,
+    "carbsG": 1.7,
+    "fibreG": 0.0,
+    "calciumMg": 8.0,
+    "ironMg": 12.6,
+    "zincMg": 4.21,
+    "vitAUgRAE": 8420.0,
+    "folateUgDFE": 940.0,
+    "vitB12Ug": 26.0,
+    "vitCMg": 23.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": true,
+   "infantSafeFromMonths": 6
+  },
+  {
+   "id": "tripe_boiled",
+   "names": {
+    "en": "Beef tripe, boiled",
+    "local": "Shaki"
+   },
+   "wafctCode": "07_022",
+   "wafctName": "Beef tripe, boiled* (without salt), drained",
+   "kind": "flesh",
+   "foodGroupWomen": "meat_poultry_fish",
+   "foodGroupChild": "flesh_foods",
+   "per100g": {
+    "energyKcal": 118.0,
+    "proteinG": 16.8,
+    "fatG": 5.6,
+    "carbsG": 0.0,
+    "fibreG": 0.0,
+    "calciumMg": 48.0,
+    "ironMg": 0.3,
+    "zincMg": 1.32,
+    "vitAUgRAE": 5.0,
+    "folateUgDFE": 5.0,
+    "vitB12Ug": 1.3,
+    "vitCMg": 0.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": true
+  },
+  {
+   "id": "snail_cooked",
+   "names": {
+    "en": "Snail, cooked",
+    "local": "Snail / congo meat"
+   },
+   "wafctCode": "07_084",
+   "wafctName": "Snail, cooked",
+   "kind": "flesh",
+   "foodGroupWomen": "meat_poultry_fish",
+   "foodGroupChild": "flesh_foods",
+   "per100g": {
+    "energyKcal": 138.0,
+    "proteinG": 25.2,
+    "fatG": 0.5,
+    "carbsG": 8.3,
+    "fibreG": 0.0,
+    "calciumMg": 105.0,
+    "ironMg": 2.9,
+    "zincMg": 2.86,
+    "vitAUgRAE": 47.0,
+    "folateUgDFE": 12.0,
+    "vitB12Ug": 1.4,
+    "vitCMg": 21.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": true
+  },
+  {
+   "id": "mackerel_cooked",
+   "names": {
+    "en": "Mackerel, cooked in soup or stew",
+    "local": "Titus / mackerel"
+   },
+   "wafctCode": "09_069",
+   "wafctName": "Mackerel, fillet, boiled* (as part of a recipe)",
+   "kind": "flesh",
+   "foodGroupWomen": "meat_poultry_fish",
+   "foodGroupChild": "flesh_foods",
+   "per100g": {
+    "energyKcal": 171.4,
+    "proteinG": 28.0,
+    "fatG": 6.6,
+    "carbsG": 0.0,
+    "fibreG": 0.0,
+    "calciumMg": 49.0,
+    "ironMg": 2.3,
+    "zincMg": 1.06,
+    "vitAUgRAE": 105.0,
+    "folateUgDFE": 19.0,
+    "vitB12Ug": 13.0,
+    "vitCMg": 0.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [
+    "folateUgDFE"
+   ],
+   "trace": [],
+   "haemIron": true,
+   "infantSafeFromMonths": 6,
+   "note": "Remove all bones for babies"
+  },
+  {
+   "id": "catfish_steamed",
+   "names": {
+    "en": "Catfish, cooked",
+    "local": "Catfish"
+   },
+   "wafctCode": "09_019",
+   "wafctName": "Catfish, fillet, steamed* (without salt)",
+   "kind": "flesh",
+   "foodGroupWomen": "meat_poultry_fish",
+   "foodGroupChild": "flesh_foods",
+   "per100g": {
+    "energyKcal": 121.0,
+    "proteinG": 19.9,
+    "fatG": 4.6,
+    "carbsG": 0.0,
+    "fibreG": 0.0,
+    "calciumMg": 94.0,
+    "ironMg": 1.5,
+    "zincMg": 0.84,
+    "vitAUgRAE": 4.0,
+    "folateUgDFE": 11.0,
+    "vitB12Ug": 3.4,
+    "vitCMg": 0.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": true,
+   "infantSafeFromMonths": 6
+  },
+  {
+   "id": "tilapia_grilled",
+   "names": {
+    "en": "Tilapia, grilled",
+    "local": "Tilapia"
+   },
+   "wafctCode": "09_043",
+   "wafctName": "Tilapia, fillet, grilled* (without salt or fat)",
+   "kind": "flesh",
+   "foodGroupWomen": "meat_poultry_fish",
+   "foodGroupChild": "flesh_foods",
+   "per100g": {
+    "energyKcal": 111.5,
+    "proteinG": 23.6,
+    "fatG": 1.9,
+    "carbsG": 0.0,
+    "fibreG": 0.0,
+    "calciumMg": 138.0,
+    "ironMg": 1.9,
+    "zincMg": 1.15,
+    "vitAUgRAE": 11.0,
+    "folateUgDFE": 5.0,
+    "vitB12Ug": 1.7,
+    "vitCMg": 0.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": true
+  },
+  {
+   "id": "sardine_canned",
+   "names": {
+    "en": "Sardine, tinned in oil",
+    "local": "Sardine"
+   },
+   "wafctCode": "09_037",
+   "wafctName": "Sardine, canned in oil, drained, with bones",
+   "kind": "flesh",
+   "foodGroupWomen": "meat_poultry_fish",
+   "foodGroupChild": "flesh_foods",
+   "per100g": {
+    "energyKcal": 239.0,
+    "proteinG": 24.8,
+    "fatG": 15.5,
+    "carbsG": 0.0,
+    "fibreG": 0.0,
+    "calciumMg": 421.0,
+    "ironMg": 2.4,
+    "zincMg": 1.77,
+    "vitAUgRAE": 49.0,
+    "folateUgDFE": 6.0,
+    "vitB12Ug": 9.0,
+    "vitCMg": 0.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": true
+  },
+  {
+   "id": "crayfish_dried",
+   "names": {
+    "en": "Crayfish, dried, ground",
+    "local": "Crayfish"
+   },
+   "wafctCode": "09_057",
+   "wafctName": "Shrimp (crayfish), whole, dried",
+   "kind": "flesh",
+   "foodGroupWomen": "meat_poultry_fish",
+   "foodGroupChild": "flesh_foods",
+   "per100g": {
+    "energyKcal": 322.0,
+    "proteinG": 63.1,
+    "fatG": 4.2,
+    "carbsG": 7.9,
+    "fibreG": 0.0,
+    "calciumMg": 2522.0,
+    "ironMg": 25.3,
+    "zincMg": 6.83,
+    "vitAUgRAE": 9.0,
+    "folateUgDFE": 140.0,
+    "vitB12Ug": 5.9,
+    "vitCMg": 37.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [
+    "folateUgDFE",
+    "vitCMg"
+   ],
+   "trace": [],
+   "haemIron": true,
+   "infantSafeFromMonths": 6,
+   "note": "Grind finely for babies"
+  },
+  {
+   "id": "shrimp_boiled",
+   "names": {
+    "en": "Shrimp, boiled",
+    "local": "Shrimp"
+   },
+   "wafctCode": "09_104",
+   "wafctName": "Shrimp, palaemonid, flesh, boiled* (as part of a recipe)",
+   "kind": "flesh",
+   "foodGroupWomen": "meat_poultry_fish",
+   "foodGroupChild": "flesh_foods",
+   "per100g": {
+    "energyKcal": 123.3,
+    "proteinG": 26.7,
+    "fatG": 1.7,
+    "carbsG": 0.3,
+    "fibreG": 0.0,
+    "calciumMg": 53.0,
+    "ironMg": 3.3,
+    "zincMg": 2.75,
+    "vitAUgRAE": 4.0,
+    "folateUgDFE": 13.0,
+    "vitB12Ug": 7.6,
+    "vitCMg": 1.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [
+    "folateUgDFE",
+    "vitB12Ug"
+   ],
+   "trace": [],
+   "haemIron": true,
+   "commonAllergen": true
+  },
+  {
+   "id": "periwinkle",
+   "names": {
+    "en": "Periwinkle (proxy: venus clams)",
+    "local": "Periwinkle"
+   },
+   "wafctCode": "09_095",
+   "wafctName": "Venus clams, flesh, boiled* (as part of a recipe)",
+   "kind": "flesh",
+   "foodGroupWomen": "meat_poultry_fish",
+   "foodGroupChild": "flesh_foods",
+   "per100g": {
+    "energyKcal": 97.5,
+    "proteinG": 14.6,
+    "fatG": 1.9,
+    "carbsG": 5.5,
+    "fibreG": 0.0,
+    "calciumMg": 290.0,
+    "ironMg": 10.5,
+    "zincMg": 1.85,
+    "vitAUgRAE": 115.0,
+    "folateUgDFE": 66.0,
+    "vitB12Ug": 54.0,
+    "vitCMg": 1.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [
+    "vitB12Ug"
+   ],
+   "trace": [],
+   "haemIron": true,
+   "proxy": "WAFCT 2019 has no periwinkle entry. Uses Venus clams, boiled, as the closest shellfish. Needs clinical lead approval."
+  },
+  {
+   "id": "egg_boiled",
+   "names": {
+    "en": "Egg, boiled",
+    "local": "Boiled egg"
+   },
+   "wafctCode": "08_002",
+   "wafctName": "Egg, chicken, boiled* (without salt)",
+   "kind": "egg",
+   "foodGroupWomen": "eggs",
+   "foodGroupChild": "eggs",
+   "per100g": {
+    "energyKcal": 150.2,
+    "proteinG": 13.5,
+    "fatG": 10.6,
+    "carbsG": 0.2,
+    "fibreG": 0.0,
+    "calciumMg": 54.0,
+    "ironMg": 2.1,
+    "zincMg": 1.43,
+    "vitAUgRAE": 116.0,
+    "folateUgDFE": 66.0,
+    "vitB12Ug": 1.1,
+    "vitCMg": 0.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": false,
+   "infantSafeFromMonths": 6,
+   "commonAllergen": true,
+   "note": "Cook well for babies"
+  },
+  {
+   "id": "egg_fried",
+   "names": {
+    "en": "Egg, fried",
+    "local": "Fried egg"
+   },
+   "wafctCode": "08_003",
+   "wafctName": "Egg, chicken, fried in oil",
+   "kind": "egg",
+   "foodGroupWomen": "eggs",
+   "foodGroupChild": "eggs",
+   "per100g": {
+    "energyKcal": 197.0,
+    "proteinG": 13.6,
+    "fatG": 14.9,
+    "carbsG": 2.0,
+    "fibreG": 0.0,
+    "calciumMg": 51.0,
+    "ironMg": 2.1,
+    "zincMg": 1.22,
+    "vitAUgRAE": 142.0,
+    "folateUgDFE": 89.0,
+    "vitB12Ug": 1.3,
+    "vitCMg": 0.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false,
+   "commonAllergen": true
+  },
+  {
+   "id": "ugu",
+   "names": {
+    "en": "Ugu (fluted pumpkin leaves) (proxy: pumpkin leaves)",
+    "local": "Ugu"
+   },
+   "wafctCode": "04_116",
+   "wafctName": "Pumpkin, leaves, fresh, boiled* (as part of a recipe)",
+   "kind": "dglv",
+   "foodGroupWomen": "dark_green_leafy_veg",
+   "foodGroupChild": "vitamin_a_fruits_veg",
+   "per100g": {
+    "energyKcal": 34.0,
+    "proteinG": 4.3,
+    "fatG": 0.2,
+    "carbsG": 2.5,
+    "fibreG": 2.4,
+    "calciumMg": 407.0,
+    "ironMg": 2.3,
+    "zincMg": 0.96,
+    "vitAUgRAE": 108.0,
+    "folateUgDFE": 27.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 7.0,
+    "phytateMg": 22.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false,
+   "proxy": "WAFCT 2019 has no Telfairia occidentalis entry. Uses pumpkin leaves, boiled as part of a recipe. Needs clinical lead approval; replace with a Nigerian ugu analysis when sourced."
+  },
+  {
+   "id": "waterleaf",
+   "names": {
+    "en": "Waterleaf",
+    "local": "Waterleaf"
+   },
+   "wafctCode": "04_120",
+   "wafctName": "Waterleaf, leaves, fresh, boiled* (as part of a recipe)",
+   "kind": "dglv",
+   "foodGroupWomen": "dark_green_leafy_veg",
+   "foodGroupChild": "vitamin_a_fruits_veg",
+   "per100g": {
+    "energyKcal": 43.0,
+    "proteinG": 2.5,
+    "fatG": 0.7,
+    "carbsG": 4.6,
+    "fibreG": 4.1,
+    "calciumMg": 107.0,
+    "ironMg": 1.1,
+    "zincMg": 0.9,
+    "vitAUgRAE": 265.0,
+    "folateUgDFE": 18.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 22.0,
+    "phytateMg": 17.0
+   },
+   "lowQuality": [
+    "fatG",
+    "folateUgDFE",
+    "phytateMg"
+   ],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "bitterleaf",
+   "names": {
+    "en": "Bitter leaf",
+    "local": "Bitterleaf / onugbu"
+   },
+   "wafctCode": "04_126",
+   "wafctName": "Vernonia, leaves, bitter, fresh, boiled* (as part of a recipe)",
+   "kind": "dglv",
+   "foodGroupWomen": "dark_green_leafy_veg",
+   "foodGroupChild": "vitamin_a_fruits_veg",
+   "per100g": {
+    "energyKcal": 69.0,
+    "proteinG": 5.3,
+    "fatG": 1.0,
+    "carbsG": 7.1,
+    "fibreG": 5.4,
+    "calciumMg": 181.0,
+    "ironMg": 2.2,
+    "zincMg": 2.0,
+    "vitAUgRAE": 232.0,
+    "folateUgDFE": 42.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 18.0,
+    "phytateMg": 122.0
+   },
+   "lowQuality": [
+    "folateUgDFE",
+    "phytateMg"
+   ],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "ewedu",
+   "names": {
+    "en": "Ewedu (jute leaves)",
+    "local": "Ewedu"
+   },
+   "wafctCode": "04_107",
+   "wafctName": "Jute mallow (bush-okra), leaves, fresh, boiled* (as part of a recipe)",
+   "kind": "dglv",
+   "foodGroupWomen": "dark_green_leafy_veg",
+   "foodGroupChild": "vitamin_a_fruits_veg",
+   "per100g": {
+    "energyKcal": 53.0,
+    "proteinG": 4.6,
+    "fatG": 0.4,
+    "carbsG": 3.4,
+    "fibreG": 8.8,
+    "calciumMg": 300.0,
+    "ironMg": 7.7,
+    "zincMg": 0.81,
+    "vitAUgRAE": 263.0,
+    "folateUgDFE": 87.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 47.0,
+    "phytateMg": 22.0
+   },
+   "lowQuality": [
+    "fatG",
+    "phytateMg"
+   ],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "afang",
+   "names": {
+    "en": "Afang / okazi leaves",
+    "local": "Afang"
+   },
+   "wafctCode": "04_130",
+   "wafctName": "Wild spinach, leaves, fresh, boiled* (as part of a recipe)",
+   "kind": "dglv",
+   "foodGroupWomen": "dark_green_leafy_veg",
+   "foodGroupChild": "vitamin_a_fruits_veg",
+   "per100g": {
+    "energyKcal": 47.0,
+    "proteinG": 5.4,
+    "fatG": 0.7,
+    "carbsG": 2.6,
+    "fibreG": 4.5,
+    "calciumMg": 248.0,
+    "ironMg": 4.6,
+    "zincMg": 0.74,
+    "vitAUgRAE": 72.0,
+    "folateUgDFE": 46.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 28.0,
+    "phytateMg": null
+   },
+   "lowQuality": [
+    "fatG",
+    "folateUgDFE"
+   ],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "green_amaranth",
+   "names": {
+    "en": "Green (amaranth leaves, efo tete)",
+    "local": "Green / efo"
+   },
+   "wafctCode": "04_086",
+   "wafctName": "Amaranth, leaves, fresh, boiled* (as part of a recipe)",
+   "kind": "dglv",
+   "foodGroupWomen": "dark_green_leafy_veg",
+   "foodGroupChild": "vitamin_a_fruits_veg",
+   "per100g": {
+    "energyKcal": 42.0,
+    "proteinG": 4.4,
+    "fatG": 0.5,
+    "carbsG": 3.2,
+    "fibreG": 4.1,
+    "calciumMg": 391.0,
+    "ironMg": 7.7,
+    "zincMg": 0.7,
+    "vitAUgRAE": 216.0,
+    "folateUgDFE": 57.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 43.0,
+    "phytateMg": 3.0
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "spinach",
+   "names": {
+    "en": "Spinach",
+    "local": "Spinach"
+   },
+   "wafctCode": "04_118",
+   "wafctName": "Spinach, leaves, fresh, boiled* (as part of a recipe)",
+   "kind": "dglv",
+   "foodGroupWomen": "dark_green_leafy_veg",
+   "foodGroupChild": "vitamin_a_fruits_veg",
+   "per100g": {
+    "energyKcal": 28.0,
+    "proteinG": 3.4,
+    "fatG": 0.5,
+    "carbsG": 0.9,
+    "fibreG": 3.2,
+    "calciumMg": 118.0,
+    "ironMg": 3.2,
+    "zincMg": 0.63,
+    "vitAUgRAE": 171.0,
+    "folateUgDFE": 160.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 20.0,
+    "phytateMg": 8.0
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "okra",
+   "names": {
+    "en": "Okra",
+    "local": "Okro"
+   },
+   "wafctCode": "04_111",
+   "wafctName": "Okra, fruit, fresh, boiled* (as part of a recipe)",
+   "kind": "veg",
+   "foodGroupWomen": "other_vegetables",
+   "foodGroupChild": "other_fruits_veg",
+   "per100g": {
+    "energyKcal": 34.0,
+    "proteinG": 1.7,
+    "fatG": 0.2,
+    "carbsG": 4.2,
+    "fibreG": 4.1,
+    "calciumMg": 87.0,
+    "ironMg": 0.8,
+    "zincMg": 0.55,
+    "vitAUgRAE": 39.0,
+    "folateUgDFE": 62.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 22.0,
+    "phytateMg": 10.0
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "tomato",
+   "names": {
+    "en": "Tomato, fresh",
+    "local": "Tomato"
+   },
+   "wafctCode": "04_021",
+   "wafctName": "Tomato, red, ripe, raw",
+   "kind": "veg",
+   "foodGroupWomen": "other_vegetables",
+   "foodGroupChild": "other_fruits_veg",
+   "per100g": {
+    "energyKcal": 22.0,
+    "proteinG": 1.1,
+    "fatG": 0.2,
+    "carbsG": 3.4,
+    "fibreG": 1.4,
+    "calciumMg": 14.0,
+    "ironMg": 0.7,
+    "zincMg": 0.22,
+    "vitAUgRAE": 44.0,
+    "folateUgDFE": 23.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 28.0,
+    "phytateMg": 4.0
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "tomato_paste",
+   "names": {
+    "en": "Tomato paste",
+    "local": "Tin tomato"
+   },
+   "wafctCode": "04_066",
+   "wafctName": "Tomato, paste, concentrated, without salt",
+   "kind": "veg",
+   "foodGroupWomen": "other_vitamin_a_fruits_veg",
+   "foodGroupChild": "vitamin_a_fruits_veg",
+   "per100g": {
+    "energyKcal": 80.0,
+    "proteinG": 3.2,
+    "fatG": 0.5,
+    "carbsG": 13.6,
+    "fibreG": 4.1,
+    "calciumMg": 31.0,
+    "ironMg": 0.8,
+    "zincMg": 0.74,
+    "vitAUgRAE": 175.0,
+    "folateUgDFE": 21.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 14.0,
+    "phytateMg": null
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": false,
+   "condiment": true
+  },
+  {
+   "id": "onion",
+   "names": {
+    "en": "Onion",
+    "local": "Onion"
+   },
+   "wafctCode": "04_018",
+   "wafctName": "Onion, fresh, raw",
+   "kind": "veg",
+   "foodGroupWomen": "other_vegetables",
+   "foodGroupChild": "other_fruits_veg",
+   "per100g": {
+    "energyKcal": 37.0,
+    "proteinG": 1.1,
+    "fatG": 0.1,
+    "carbsG": 7.1,
+    "fibreG": 1.8,
+    "calciumMg": 25.0,
+    "ironMg": 0.7,
+    "zincMg": 0.28,
+    "vitAUgRAE": 0.0,
+    "folateUgDFE": 17.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 11.0,
+    "phytateMg": 7.0
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": false,
+   "condiment": true
+  },
+  {
+   "id": "garden_egg",
+   "names": {
+    "en": "Garden egg",
+    "local": "Garden egg"
+   },
+   "wafctCode": "04_074",
+   "wafctName": "Native eggplant, fruit, raw",
+   "kind": "veg",
+   "foodGroupWomen": "other_vegetables",
+   "foodGroupChild": "other_fruits_veg",
+   "per100g": {
+    "energyKcal": 32.0,
+    "proteinG": 1.3,
+    "fatG": 0.4,
+    "carbsG": 3.9,
+    "fibreG": 4.0,
+    "calciumMg": 12.0,
+    "ironMg": 1.1,
+    "zincMg": 0.23,
+    "vitAUgRAE": 11.0,
+    "folateUgDFE": 33.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 2.0,
+    "phytateMg": 14.0
+   },
+   "lowQuality": [
+    "fatG",
+    "folateUgDFE"
+   ],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "cabbage",
+   "names": {
+    "en": "Cabbage",
+    "local": "Cabbage"
+   },
+   "wafctCode": "04_005",
+   "wafctName": "Cabbage, white, raw",
+   "kind": "veg",
+   "foodGroupWomen": "other_vegetables",
+   "foodGroupChild": "other_fruits_veg",
+   "per100g": {
+    "energyKcal": 26.0,
+    "proteinG": 1.6,
+    "fatG": 0.1,
+    "carbsG": 3.6,
+    "fibreG": 2.2,
+    "calciumMg": 43.0,
+    "ironMg": 1.2,
+    "zincMg": 0.16,
+    "vitAUgRAE": 0.0,
+    "folateUgDFE": 15.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 54.0,
+    "phytateMg": 12.0
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [
+    "vitAUgRAE"
+   ],
+   "haemIron": false
+  },
+  {
+   "id": "cucumber",
+   "names": {
+    "en": "Cucumber",
+    "local": "Cucumber"
+   },
+   "wafctCode": "04_032",
+   "wafctName": "Cucumber, unpeeled, raw",
+   "kind": "veg",
+   "foodGroupWomen": "other_vegetables",
+   "foodGroupChild": "other_fruits_veg",
+   "per100g": {
+    "energyKcal": 12.0,
+    "proteinG": 0.7,
+    "fatG": 0.1,
+    "carbsG": 0.9,
+    "fibreG": 2.1,
+    "calciumMg": 13.0,
+    "ironMg": 0.6,
+    "zincMg": 0.17,
+    "vitAUgRAE": 2.0,
+    "folateUgDFE": 6.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 14.0,
+    "phytateMg": 18.0
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "carrot",
+   "names": {
+    "en": "Carrot",
+    "local": "Carrot"
+   },
+   "wafctCode": "04_006",
+   "wafctName": "Carrot, raw",
+   "kind": "veg",
+   "foodGroupWomen": "other_vitamin_a_fruits_veg",
+   "foodGroupChild": "vitamin_a_fruits_veg",
+   "per100g": {
+    "energyKcal": 34.0,
+    "proteinG": 0.9,
+    "fatG": 0.2,
+    "carbsG": 5.5,
+    "fibreG": 3.2,
+    "calciumMg": 36.0,
+    "ironMg": 0.8,
+    "zincMg": 0.25,
+    "vitAUgRAE": 637.0,
+    "folateUgDFE": 17.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 7.0,
+    "phytateMg": 20.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false,
+   "infantSafeFromMonths": 6,
+   "chokingRisk": true,
+   "note": "Cook soft and mash for babies"
+  },
+  {
+   "id": "pepper_chilli",
+   "names": {
+    "en": "Pepper (chilli)",
+    "local": "Pepper"
+   },
+   "wafctCode": "04_046",
+   "wafctName": "Pepper, chilli, fresh, raw",
+   "kind": "veg",
+   "foodGroupWomen": "other_vegetables",
+   "foodGroupChild": "other_fruits_veg",
+   "per100g": {
+    "energyKcal": 47.0,
+    "proteinG": 1.8,
+    "fatG": 0.3,
+    "carbsG": 7.5,
+    "fibreG": 3.5,
+    "calciumMg": 16.0,
+    "ironMg": 1.3,
+    "zincMg": 0.3,
+    "vitAUgRAE": 46.0,
+    "folateUgDFE": 15.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 132.0,
+    "phytateMg": 13.0
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": false,
+   "condiment": true
+  },
+  {
+   "id": "pepper_sweet_red",
+   "names": {
+    "en": "Tatashe (red sweet pepper)",
+    "local": "Tatashe"
+   },
+   "wafctCode": "04_047",
+   "wafctName": "Pepper, sweet, red, fresh, raw",
+   "kind": "veg",
+   "foodGroupWomen": "other_vegetables",
+   "foodGroupChild": "other_fruits_veg",
+   "per100g": {
+    "energyKcal": 48.0,
+    "proteinG": 2.0,
+    "fatG": 0.8,
+    "carbsG": 7.1,
+    "fibreG": 2.5,
+    "calciumMg": 22.0,
+    "ironMg": 2.2,
+    "zincMg": 0.12,
+    "vitAUgRAE": 104.0,
+    "folateUgDFE": 24.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 190.0,
+    "phytateMg": 18.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "pawpaw",
+   "names": {
+    "en": "Pawpaw",
+    "local": "Pawpaw"
+   },
+   "wafctCode": "05_017",
+   "wafctName": "Papaya, fruit, ripe, raw",
+   "kind": "fruit",
+   "foodGroupWomen": "other_vitamin_a_fruits_veg",
+   "foodGroupChild": "vitamin_a_fruits_veg",
+   "per100g": {
+    "energyKcal": 59.0,
+    "proteinG": 0.4,
+    "fatG": 0.1,
+    "carbsG": 13.0,
+    "fibreG": 2.1,
+    "calciumMg": 21.0,
+    "ironMg": 0.8,
+    "zincMg": 0.15,
+    "vitAUgRAE": 63.0,
+    "folateUgDFE": 37.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 52.0,
+    "phytateMg": 25.0
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": false,
+   "infantSafeFromMonths": 6,
+   "reviewNote": "WAFCT 2019 RAE is 63 mcg/100 g (below the 120 cut-off) but the MDD-W guide lists ripe papaya as a vitamin A-rich fruit. Grouped as vitamin A-rich pending clinical lead decision."
+  },
+  {
+   "id": "mango",
+   "names": {
+    "en": "Mango",
+    "local": "Mango"
+   },
+   "wafctCode": "05_015",
+   "wafctName": "Mango, orange flesh, ripe, raw",
+   "kind": "fruit",
+   "foodGroupWomen": "other_vitamin_a_fruits_veg",
+   "foodGroupChild": "vitamin_a_fruits_veg",
+   "per100g": {
+    "energyKcal": 70.0,
+    "proteinG": 0.6,
+    "fatG": 0.2,
+    "carbsG": 15.3,
+    "fibreG": 1.8,
+    "calciumMg": 17.0,
+    "ironMg": 0.7,
+    "zincMg": 0.1,
+    "vitAUgRAE": 202.0,
+    "folateUgDFE": 40.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 35.0,
+    "phytateMg": 82.0
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": false,
+   "infantSafeFromMonths": 6
+  },
+  {
+   "id": "orange",
+   "names": {
+    "en": "Orange",
+    "local": "Orange"
+   },
+   "wafctCode": "05_016",
+   "wafctName": "Orange, raw",
+   "kind": "fruit",
+   "foodGroupWomen": "other_fruits",
+   "foodGroupChild": "other_fruits_veg",
+   "per100g": {
+    "energyKcal": 44.0,
+    "proteinG": 0.7,
+    "fatG": 0.4,
+    "carbsG": 8.7,
+    "fibreG": 1.7,
+    "calciumMg": 29.0,
+    "ironMg": 0.2,
+    "zincMg": 0.08,
+    "vitAUgRAE": 8.0,
+    "folateUgDFE": 37.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 46.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "banana",
+   "names": {
+    "en": "Banana",
+    "local": "Banana"
+   },
+   "wafctCode": "05_028",
+   "wafctName": "Banana, yellow flesh, ripe, raw",
+   "kind": "fruit",
+   "foodGroupWomen": "other_fruits",
+   "foodGroupChild": "other_fruits_veg",
+   "per100g": {
+    "energyKcal": 89.0,
+    "proteinG": 1.3,
+    "fatG": 0.2,
+    "carbsG": 19.2,
+    "fibreG": 2.7,
+    "calciumMg": 9.0,
+    "ironMg": 0.3,
+    "zincMg": 0.28,
+    "vitAUgRAE": 119.0,
+    "folateUgDFE": 19.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 10.0,
+    "phytateMg": 14.0
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": false,
+   "infantSafeFromMonths": 6
+  },
+  {
+   "id": "pineapple",
+   "names": {
+    "en": "Pineapple",
+    "local": "Pineapple"
+   },
+   "wafctCode": "05_018",
+   "wafctName": "Pineapple, fruit, raw",
+   "kind": "fruit",
+   "foodGroupWomen": "other_fruits",
+   "foodGroupChild": "other_fruits_veg",
+   "per100g": {
+    "energyKcal": 53.0,
+    "proteinG": 0.4,
+    "fatG": 0.2,
+    "carbsG": 11.4,
+    "fibreG": 1.8,
+    "calciumMg": 22.0,
+    "ironMg": 0.6,
+    "zincMg": 0.24,
+    "vitAUgRAE": 6.0,
+    "folateUgDFE": 18.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 34.0,
+    "phytateMg": 9.0
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "watermelon",
+   "names": {
+    "en": "Watermelon",
+    "local": "Watermelon"
+   },
+   "wafctCode": "05_022",
+   "wafctName": "Watermelon, fruit, raw",
+   "kind": "fruit",
+   "foodGroupWomen": "other_fruits",
+   "foodGroupChild": "other_fruits_veg",
+   "per100g": {
+    "energyKcal": 25.0,
+    "proteinG": 0.5,
+    "fatG": 0.1,
+    "carbsG": 5.0,
+    "fibreG": 0.9,
+    "calciumMg": 7.0,
+    "ironMg": 0.3,
+    "zincMg": 0.1,
+    "vitAUgRAE": 25.0,
+    "folateUgDFE": 8.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 6.0,
+    "phytateMg": 1.0
+   },
+   "lowQuality": [
+    "fatG"
+   ],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "guava",
+   "names": {
+    "en": "Guava",
+    "local": "Guava"
+   },
+   "wafctCode": "05_010",
+   "wafctName": "Guava, fruit, raw",
+   "kind": "fruit",
+   "foodGroupWomen": "other_fruits",
+   "foodGroupChild": "other_fruits_veg",
+   "per100g": {
+    "energyKcal": 68.0,
+    "proteinG": 1.0,
+    "fatG": 0.4,
+    "carbsG": 12.3,
+    "fibreG": 5.7,
+    "calciumMg": 24.0,
+    "ironMg": 1.3,
+    "zincMg": 0.22,
+    "vitAUgRAE": 22.0,
+    "folateUgDFE": 7.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 268.0,
+    "phytateMg": 51.0
+   },
+   "lowQuality": [
+    "fatG",
+    "folateUgDFE"
+   ],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "avocado",
+   "names": {
+    "en": "Avocado",
+    "local": "Pear / avocado"
+   },
+   "wafctCode": "05_002",
+   "wafctName": "Avocado, fruit, raw",
+   "kind": "fruit",
+   "foodGroupWomen": "other_fruits",
+   "foodGroupChild": "other_fruits_veg",
+   "per100g": {
+    "energyKcal": 156.0,
+    "proteinG": 1.6,
+    "fatG": 14.8,
+    "carbsG": 2.1,
+    "fibreG": 4.0,
+    "calciumMg": 14.0,
+    "ironMg": 1.3,
+    "zincMg": 0.36,
+    "vitAUgRAE": 2.0,
+    "folateUgDFE": 22.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 18.0,
+    "phytateMg": 356.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false,
+   "infantSafeFromMonths": 6
+  },
+  {
+   "id": "palm_oil_red",
+   "names": {
+    "en": "Red palm oil",
+    "local": "Palm oil"
+   },
+   "wafctCode": "11_004",
+   "wafctName": "Palm oil, red",
+   "kind": "redpalm",
+   "foodGroupWomen": "other_vitamin_a_fruits_veg",
+   "foodGroupChild": "vitamin_a_fruits_veg",
+   "per100g": {
+    "energyKcal": 898.0,
+    "proteinG": 0.0,
+    "fatG": 99.8,
+    "carbsG": 0.0,
+    "fibreG": 0.0,
+    "calciumMg": 2.0,
+    "ironMg": 0.2,
+    "zincMg": 0.0,
+    "vitAUgRAE": 5720.0,
+    "folateUgDFE": 0.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 0.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [
+    "vitAUgRAE"
+   ],
+   "trace": [],
+   "haemIron": false,
+   "reviewNote": "Red palm oil counted with vitamin A-rich foods per MDD-W guidance. Confirm for the child indicator."
+  },
+  {
+   "id": "groundnut_oil",
+   "names": {
+    "en": "Vegetable / groundnut oil",
+    "local": "Groundnut oil"
+   },
+   "wafctCode": "11_003",
+   "wafctName": "Groundnut oil, unfortified",
+   "kind": "oil",
+   "foodGroupWomen": null,
+   "foodGroupChild": null,
+   "per100g": {
+    "energyKcal": 900.0,
+    "proteinG": 0.0,
+    "fatG": 100.0,
+    "carbsG": 0.0,
+    "fibreG": 0.0,
+    "calciumMg": 0.0,
+    "ironMg": 0.1,
+    "zincMg": 0.06,
+    "vitAUgRAE": 0.0,
+    "folateUgDFE": 0.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 0.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "sugar",
+   "names": {
+    "en": "Sugar",
+    "local": "Sugar"
+   },
+   "wafctCode": "13_002",
+   "wafctName": "Sugar, white",
+   "kind": "sugar",
+   "foodGroupWomen": null,
+   "foodGroupChild": null,
+   "per100g": {
+    "energyKcal": 400.0,
+    "proteinG": 0.0,
+    "fatG": 0.0,
+    "carbsG": 100.0,
+    "fibreG": 0.0,
+    "calciumMg": 1.0,
+    "ironMg": 0.1,
+    "zincMg": 0.03,
+    "vitAUgRAE": 0.0,
+    "folateUgDFE": 0.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 0.0,
+    "phytateMg": 0.0
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false
+  },
+  {
+   "id": "tea",
+   "names": {
+    "en": "Tea",
+    "local": "Tea"
+   },
+   "wafctCode": "12_008",
+   "wafctName": "Tea, infusion",
+   "kind": "drink",
+   "foodGroupWomen": null,
+   "foodGroupChild": null,
+   "per100g": {
+    "energyKcal": 0.0,
+    "proteinG": 0.1,
+    "fatG": 0.0,
+    "carbsG": 0.0,
+    "fibreG": 0.0,
+    "calciumMg": 2.0,
+    "ironMg": 0.1,
+    "zincMg": 0.03,
+    "vitAUgRAE": 0.0,
+    "folateUgDFE": 5.0,
+    "vitB12Ug": 0.0,
+    "vitCMg": 1.0,
+    "phytateMg": null
+   },
+   "lowQuality": [],
+   "trace": [],
+   "haemIron": false,
+   "note": "Tea with meals reduces iron absorption"
+  }
+ ]
+}

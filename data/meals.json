@@ -1,0 +1,1030 @@
+{
+ "version": "0.1",
+ "reviewStatus": "DRAFT. Gram weights are estimates for clinical lead and dietitian review.",
+ "meals": [
+  {
+   "id": "jollof_rice_fish",
+   "names": {
+    "en": "Jollof rice with fish",
+    "local": "Jollof rice and fish"
+   },
+   "audience": "adult",
+   "ingredients": [
+    {
+     "foodId": "rice_white_boiled",
+     "grams": 250
+    },
+    {
+     "foodId": "tomato",
+     "grams": 30
+    },
+    {
+     "foodId": "tomato_paste",
+     "grams": 10
+    },
+    {
+     "foodId": "pepper_sweet_red",
+     "grams": 15
+    },
+    {
+     "foodId": "onion",
+     "grams": 10
+    },
+    {
+     "foodId": "groundnut_oil",
+     "grams": 10
+    },
+    {
+     "foodId": "mackerel_cooked",
+     "grams": 80
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Medium: about 2 cooking spoons of rice and one piece of fish",
+   "reviewRequired": true
+  },
+  {
+   "id": "rice_stew_chicken",
+   "names": {
+    "en": "White rice and stew with chicken",
+    "local": "Rice and stew"
+   },
+   "audience": "adult",
+   "ingredients": [
+    {
+     "foodId": "rice_white_boiled",
+     "grams": 250
+    },
+    {
+     "foodId": "tomato",
+     "grams": 40
+    },
+    {
+     "foodId": "pepper_sweet_red",
+     "grams": 15
+    },
+    {
+     "foodId": "onion",
+     "grams": 10
+    },
+    {
+     "foodId": "groundnut_oil",
+     "grams": 15
+    },
+    {
+     "foodId": "chicken_stewed",
+     "grams": 90
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Medium: 2 cooking spoons of rice, 1 piece of chicken",
+   "reviewRequired": true
+  },
+  {
+   "id": "beans_plantain",
+   "names": {
+    "en": "Beans porridge with ripe plantain",
+    "local": "Beans and plantain"
+   },
+   "audience": "adult",
+   "ingredients": [
+    {
+     "foodId": "cowpea_boiled",
+     "grams": 250
+    },
+    {
+     "foodId": "palm_oil_red",
+     "grams": 10
+    },
+    {
+     "foodId": "onion",
+     "grams": 10
+    },
+    {
+     "foodId": "crayfish_dried",
+     "grams": 5
+    },
+    {
+     "foodId": "plantain_ripe_boiled",
+     "grams": 150
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Medium: 1 plate of beans and 1 finger of plantain",
+   "reviewRequired": true
+  },
+  {
+   "id": "moimoi_pap",
+   "names": {
+    "en": "Moi moi with pap",
+    "local": "Moi moi and pap"
+   },
+   "audience": "adult",
+   "ingredients": [
+    {
+     "foodId": "cowpea_dry",
+     "grams": 70
+    },
+    {
+     "foodId": "groundnut_oil",
+     "grams": 10
+    },
+    {
+     "foodId": "crayfish_dried",
+     "grams": 5
+    },
+    {
+     "foodId": "egg_boiled",
+     "grams": 25
+    },
+    {
+     "foodId": "pepper_sweet_red",
+     "grams": 15
+    },
+    {
+     "foodId": "onion",
+     "grams": 10
+    },
+    {
+     "foodId": "ogi_pap",
+     "grams": 300
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Medium: 1 wrap of moi moi and 1 cup of pap",
+   "reviewRequired": true,
+   "note": "Moi moi entered as dry beans weight"
+  },
+  {
+   "id": "akara_pap",
+   "names": {
+    "en": "Akara with pap",
+    "local": "Akara and pap"
+   },
+   "audience": "adult",
+   "ingredients": [
+    {
+     "foodId": "cowpea_dry",
+     "grams": 60
+    },
+    {
+     "foodId": "groundnut_oil",
+     "grams": 15
+    },
+    {
+     "foodId": "onion",
+     "grams": 10
+    },
+    {
+     "foodId": "pepper_chilli",
+     "grams": 5
+    },
+    {
+     "foodId": "ogi_pap",
+     "grams": 300
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Medium: 5 balls of akara and 1 cup of pap",
+   "reviewRequired": true,
+   "note": "Akara entered as dry beans weight plus frying oil"
+  },
+  {
+   "id": "yam_egg_sauce",
+   "names": {
+    "en": "Yam and egg sauce",
+    "local": "Yam and egg"
+   },
+   "audience": "adult",
+   "ingredients": [
+    {
+     "foodId": "yam_boiled",
+     "grams": 250
+    },
+    {
+     "foodId": "egg_fried",
+     "grams": 100
+    },
+    {
+     "foodId": "tomato",
+     "grams": 40
+    },
+    {
+     "foodId": "onion",
+     "grams": 10
+    },
+    {
+     "foodId": "pepper_sweet_red",
+     "grams": 15
+    },
+    {
+     "foodId": "groundnut_oil",
+     "grams": 10
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Medium: 3 slices of yam, 2 eggs",
+   "reviewRequired": true
+  },
+  {
+   "id": "yam_garden_egg_sauce",
+   "names": {
+    "en": "Boiled yam with garden egg sauce",
+    "local": "Yam and garden egg sauce"
+   },
+   "audience": "adult",
+   "ingredients": [
+    {
+     "foodId": "yam_boiled",
+     "grams": 250
+    },
+    {
+     "foodId": "garden_egg",
+     "grams": 80
+    },
+    {
+     "foodId": "palm_oil_red",
+     "grams": 10
+    },
+    {
+     "foodId": "crayfish_dried",
+     "grams": 5
+    },
+    {
+     "foodId": "onion",
+     "grams": 10
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Medium: 3 slices of yam",
+   "reviewRequired": true
+  },
+  {
+   "id": "eba_egusi_ugu",
+   "names": {
+    "en": "Eba with egusi and ugu soup",
+    "local": "Eba and egusi"
+   },
+   "audience": "adult",
+   "ingredients": [
+    {
+     "foodId": "gari_dry",
+     "grams": 100
+    },
+    {
+     "foodId": "egusi",
+     "grams": 30
+    },
+    {
+     "foodId": "ugu",
+     "grams": 40
+    },
+    {
+     "foodId": "palm_oil_red",
+     "grams": 15
+    },
+    {
+     "foodId": "crayfish_dried",
+     "grams": 5
+    },
+    {
+     "foodId": "beef_stewed",
+     "grams": 60
+    },
+    {
+     "foodId": "pepper_chilli",
+     "grams": 5
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Medium: eba the size of your fist, 1 small bowl of soup, 1 piece of meat",
+   "reviewRequired": true,
+   "note": "Eba entered as dry garri weight"
+  },
+  {
+   "id": "eba_okra_fish",
+   "names": {
+    "en": "Eba with okro soup and fish",
+    "local": "Eba and okro"
+   },
+   "audience": "adult",
+   "ingredients": [
+    {
+     "foodId": "gari_dry",
+     "grams": 100
+    },
+    {
+     "foodId": "okra",
+     "grams": 80
+    },
+    {
+     "foodId": "ugu",
+     "grams": 20
+    },
+    {
+     "foodId": "palm_oil_red",
+     "grams": 10
+    },
+    {
+     "foodId": "crayfish_dried",
+     "grams": 5
+    },
+    {
+     "foodId": "mackerel_cooked",
+     "grams": 80
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Medium: eba the size of your fist, 1 small bowl of soup, 1 piece of fish",
+   "reviewRequired": true,
+   "note": "Eba entered as dry garri weight"
+  },
+  {
+   "id": "edikang_ikong_eba",
+   "names": {
+    "en": "Edikang ikong soup with eba",
+    "local": "Edikang ikong"
+   },
+   "audience": "adult",
+   "ingredients": [
+    {
+     "foodId": "gari_dry",
+     "grams": 100
+    },
+    {
+     "foodId": "ugu",
+     "grams": 60
+    },
+    {
+     "foodId": "waterleaf",
+     "grams": 60
+    },
+    {
+     "foodId": "periwinkle",
+     "grams": 30
+    },
+    {
+     "foodId": "beef_stewed",
+     "grams": 60
+    },
+    {
+     "foodId": "crayfish_dried",
+     "grams": 5
+    },
+    {
+     "foodId": "palm_oil_red",
+     "grams": 20
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Medium: eba the size of your fist, 1 bowl of soup",
+   "reviewRequired": true
+  },
+  {
+   "id": "fufu_afang",
+   "names": {
+    "en": "Fufu with afang soup",
+    "local": "Fufu and afang"
+   },
+   "audience": "adult",
+   "ingredients": [
+    {
+     "foodId": "fufu_wet",
+     "grams": 250
+    },
+    {
+     "foodId": "afang",
+     "grams": 40
+    },
+    {
+     "foodId": "waterleaf",
+     "grams": 40
+    },
+    {
+     "foodId": "periwinkle",
+     "grams": 30
+    },
+    {
+     "foodId": "beef_stewed",
+     "grams": 60
+    },
+    {
+     "foodId": "palm_oil_red",
+     "grams": 20
+    },
+    {
+     "foodId": "crayfish_dried",
+     "grams": 5
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Medium: fufu the size of your fist, 1 bowl of soup",
+   "reviewRequired": true
+  },
+  {
+   "id": "fisherman_soup_yam",
+   "names": {
+    "en": "Fisherman soup with yam",
+    "local": "Fisherman soup"
+   },
+   "audience": "adult",
+   "ingredients": [
+    {
+     "foodId": "yam_boiled",
+     "grams": 200
+    },
+    {
+     "foodId": "catfish_steamed",
+     "grams": 100
+    },
+    {
+     "foodId": "shrimp_boiled",
+     "grams": 20
+    },
+    {
+     "foodId": "periwinkle",
+     "grams": 30
+    },
+    {
+     "foodId": "palm_oil_red",
+     "grams": 10
+    },
+    {
+     "foodId": "pepper_chilli",
+     "grams": 5
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Medium: 2 slices of yam, 1 bowl of soup",
+   "reviewRequired": true
+  },
+  {
+   "id": "rice_beans_fish",
+   "names": {
+    "en": "Rice and beans with fish stew",
+    "local": "Rice and beans"
+   },
+   "audience": "adult",
+   "ingredients": [
+    {
+     "foodId": "rice_white_boiled",
+     "grams": 150
+    },
+    {
+     "foodId": "cowpea_boiled",
+     "grams": 100
+    },
+    {
+     "foodId": "tomato",
+     "grams": 40
+    },
+    {
+     "foodId": "groundnut_oil",
+     "grams": 15
+    },
+    {
+     "foodId": "mackerel_cooked",
+     "grams": 80
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Medium: 2 cooking spoons, 1 piece of fish",
+   "reviewRequired": true
+  },
+  {
+   "id": "bread_egg",
+   "names": {
+    "en": "Bread and fried egg",
+    "local": "Bread and egg"
+   },
+   "audience": "adult",
+   "ingredients": [
+    {
+     "foodId": "bread_white",
+     "grams": 100
+    },
+    {
+     "foodId": "egg_fried",
+     "grams": 50
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Medium: 4 slices of bread, 1 egg",
+   "reviewRequired": true
+  },
+  {
+   "id": "oats_milk_banana",
+   "names": {
+    "en": "Oats with milk and banana",
+    "local": "Oats"
+   },
+   "audience": "adult",
+   "ingredients": [
+    {
+     "foodId": "oats_porridge",
+     "grams": 250
+    },
+    {
+     "foodId": "milk_powder",
+     "grams": 15
+    },
+    {
+     "foodId": "sugar",
+     "grams": 10
+    },
+    {
+     "foodId": "banana",
+     "grams": 100
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Medium: 1 bowl, 1 banana",
+   "reviewRequired": true
+  },
+  {
+   "id": "garri_soak",
+   "names": {
+    "en": "Garri soaked with groundnut and milk",
+    "local": "Garri and groundnut"
+   },
+   "audience": "adult",
+   "ingredients": [
+    {
+     "foodId": "gari_dry",
+     "grams": 60
+    },
+    {
+     "foodId": "groundnut",
+     "grams": 30
+    },
+    {
+     "foodId": "milk_powder",
+     "grams": 15
+    },
+    {
+     "foodId": "sugar",
+     "grams": 10
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Medium: 1 cup of garri, 1 handful of groundnut",
+   "reviewRequired": true
+  },
+  {
+   "id": "spaghetti_egg",
+   "names": {
+    "en": "Jollof spaghetti with egg",
+    "local": "Spaghetti"
+   },
+   "audience": "adult",
+   "ingredients": [
+    {
+     "foodId": "pasta_boiled",
+     "grams": 250
+    },
+    {
+     "foodId": "tomato",
+     "grams": 40
+    },
+    {
+     "foodId": "groundnut_oil",
+     "grams": 10
+    },
+    {
+     "foodId": "egg_boiled",
+     "grams": 50
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Medium: 1 plate, 1 egg",
+   "reviewRequired": true
+  },
+  {
+   "id": "noodles_egg",
+   "names": {
+    "en": "Noodles with egg",
+    "local": "Indomie and egg"
+   },
+   "audience": "adult",
+   "ingredients": [
+    {
+     "foodId": "noodles_boiled",
+     "grams": 200
+    },
+    {
+     "foodId": "egg_fried",
+     "grams": 50
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Medium: 1 pack, 1 egg",
+   "reviewRequired": true
+  },
+  {
+   "id": "fruit_plate",
+   "names": {
+    "en": "Fruit plate",
+    "local": "Fruit"
+   },
+   "audience": "adult",
+   "ingredients": [
+    {
+     "foodId": "pawpaw",
+     "grams": 150
+    },
+    {
+     "foodId": "orange",
+     "grams": 130
+    },
+    {
+     "foodId": "banana",
+     "grams": 100
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Medium: 1 slice pawpaw, 1 orange, 1 banana",
+   "reviewRequired": true
+  },
+  {
+   "id": "liver_sauce_yam",
+   "names": {
+    "en": "Liver sauce with yam",
+    "local": "Liver and yam"
+   },
+   "audience": "adult",
+   "ingredients": [
+    {
+     "foodId": "yam_boiled",
+     "grams": 200
+    },
+    {
+     "foodId": "beef_liver_stewed",
+     "grams": 60
+    },
+    {
+     "foodId": "tomato",
+     "grams": 40
+    },
+    {
+     "foodId": "groundnut_oil",
+     "grams": 10
+    },
+    {
+     "foodId": "ugu",
+     "grams": 30
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Medium: 2 slices yam, 2 pieces of liver",
+   "reviewRequired": true
+  },
+  {
+   "id": "enriched_pap",
+   "names": {
+    "en": "Enriched pap (pap with groundnut paste and crayfish)",
+    "local": "Enriched pap"
+   },
+   "audience": "infant",
+   "ingredients": [
+    {
+     "foodId": "ogi_pap",
+     "grams": 120
+    },
+    {
+     "foodId": "groundnut_paste",
+     "grams": 8
+    },
+    {
+     "foodId": "crayfish_dried",
+     "grams": 3
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "6-8 months: start with 2-3 tablespoons, build up to half a cup. 9-11 months: half a cup. 12-23 months: three-quarters to 1 cup.",
+   "reviewRequired": true,
+   "note": "Grind crayfish very fine"
+  },
+  {
+   "id": "mashed_beans_plantain",
+   "names": {
+    "en": "Mashed beans and ripe plantain",
+    "local": "Beans and plantain mash"
+   },
+   "audience": "infant",
+   "ingredients": [
+    {
+     "foodId": "cowpea_boiled",
+     "grams": 40
+    },
+    {
+     "foodId": "plantain_ripe_boiled",
+     "grams": 40
+    },
+    {
+     "foodId": "palm_oil_red",
+     "grams": 3
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Mash smooth for 6-8 months, soft lumps from 9 months",
+   "reviewRequired": true
+  },
+  {
+   "id": "mashed_yam_egg",
+   "names": {
+    "en": "Mashed yam with egg",
+    "local": "Yam and egg mash"
+   },
+   "audience": "infant",
+   "ingredients": [
+    {
+     "foodId": "yam_boiled",
+     "grams": 50
+    },
+    {
+     "foodId": "egg_boiled",
+     "grams": 25
+    },
+    {
+     "foodId": "palm_oil_red",
+     "grams": 3
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Egg must be fully cooked",
+   "reviewRequired": true
+  },
+  {
+   "id": "sweet_potato_fish_mash",
+   "names": {
+    "en": "Orange sweet potato and fish mash",
+    "local": "Sweet potato and fish"
+   },
+   "audience": "infant",
+   "ingredients": [
+    {
+     "foodId": "sweet_potato_orange_boiled",
+     "grams": 60
+    },
+    {
+     "foodId": "mackerel_cooked",
+     "grams": 20
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Remove every bone",
+   "reviewRequired": true
+  },
+  {
+   "id": "pap_milk",
+   "names": {
+    "en": "Pap with milk",
+    "local": "Pap and milk"
+   },
+   "audience": "infant",
+   "ingredients": [
+    {
+     "foodId": "ogi_pap",
+     "grams": 120
+    },
+    {
+     "foodId": "milk_powder",
+     "grams": 8
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Make it thick enough to stay on the spoon",
+   "reviewRequired": true
+  },
+  {
+   "id": "soft_rice_fish_stew",
+   "names": {
+    "en": "Soft rice with fish stew, mashed",
+    "local": "Rice and fish"
+   },
+   "audience": "infant",
+   "ingredients": [
+    {
+     "foodId": "rice_white_boiled",
+     "grams": 60
+    },
+    {
+     "foodId": "tomato",
+     "grams": 15
+    },
+    {
+     "foodId": "mackerel_cooked",
+     "grams": 20
+    },
+    {
+     "foodId": "groundnut_oil",
+     "grams": 3
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Mash well; little pepper",
+   "reviewRequired": true
+  },
+  {
+   "id": "plantain_egg_mash",
+   "names": {
+    "en": "Ripe plantain and egg mash",
+    "local": "Plantain and egg"
+   },
+   "audience": "infant",
+   "ingredients": [
+    {
+     "foodId": "plantain_ripe_boiled",
+     "grams": 50
+    },
+    {
+     "foodId": "egg_boiled",
+     "grams": 25
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Egg must be fully cooked",
+   "reviewRequired": true
+  },
+  {
+   "id": "liver_yam_mash",
+   "names": {
+    "en": "Yam with chicken liver and ugu mash",
+    "local": "Yam, liver and ugu"
+   },
+   "audience": "infant",
+   "ingredients": [
+    {
+     "foodId": "yam_boiled",
+     "grams": 50
+    },
+    {
+     "foodId": "chicken_liver_stewed",
+     "grams": 15
+    },
+    {
+     "foodId": "ugu",
+     "grams": 10
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Liver is rich in iron; small amounts are enough",
+   "reviewRequired": true,
+   "note": "Liver is very high in vitamin A; clinical lead to set how often (for example once or twice a week)"
+  },
+  {
+   "id": "mashed_pawpaw",
+   "names": {
+    "en": "Mashed pawpaw",
+    "local": "Pawpaw"
+   },
+   "audience": "infant",
+   "ingredients": [
+    {
+     "foodId": "pawpaw",
+     "grams": 50
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Ripe and soft",
+   "reviewRequired": true
+  },
+  {
+   "id": "avocado_mash",
+   "names": {
+    "en": "Mashed avocado",
+    "local": "Avocado"
+   },
+   "audience": "infant",
+   "ingredients": [
+    {
+     "foodId": "avocado",
+     "grams": 40
+    }
+   ],
+   "portions": {
+    "small": 0.6,
+    "medium": 1,
+    "large": 1.5
+   },
+   "portionHint": "Ripe and soft",
+   "reviewRequired": true
+  }
+ ]
+}
